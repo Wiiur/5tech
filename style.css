@@ -1,0 +1,253 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    background-color: rgb(235, 229, 221);
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html{
+    scroll-behavior: smooth ;
+}
+/* HEADER */
+ul {
+    display: block;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+    list-style-type: none;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 12px 14px;
+    color: #111;
+    text-decoration: none;
+
+    
+}
+
+li a:hover {
+    background-color: rgb(91, 34, 145);
+    border-radius: 4px;
+    color: aliceblue;
+    transition: background-color 0.5s;
+}
+ul img {
+    width: 160px;
+    padding-top: 8px;
+    padding-right: 635px;
+}
+/* HOME */
+section div.info{
+    margin-top: -100px;
+    width: 50%;
+  }
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+.info p {
+    font-size: 30px;
+    color: #525151;
+}
+.info h1 {
+    font-size: 50px;
+    width: 100%;
+    font-weight: 1000;
+}
+.center video{
+    width: 50%;
+    align-items: right;
+    border-radius: 15px;
+    margin-top: -100px;
+}
+section {
+    min-height: 100vh;
+    padding-top: 3rem;
+}
+section img {
+    align-items: center;
+}
+/* Plataforma */
+
+section#Plataforma div {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 0px;
+    margin: 10px;
+}
+section#Plataforma div.grid-1 {
+    background-color: rgb(225, 224, 224);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgb(109, 108, 108);
+    display: block;
+    margin-bottom: 300px;
+    margin-top: 200px;
+}
+section#Plataforma div.grid-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    display: block;
+    margin-top: -15px;
+    
+}
+section#Plataforma div h2 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+section#Plataforma div.grid-2 p {
+    font-size: 25px;
+    margin-top: 0px;
+    color: #656464;
+}
+section#Plataforma div p span {
+    font-size: 15px;
+    color: #525151;
+}
+section#Plataforma div.grid-1 p {
+    font-size: 25px;
+    margin-top: 0px;
+    color: #000000;
+}
+section#Plataforma div.grid-1:hover {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.58) ;
+    
+}
+/* Cliente */
+section#Clientes div h2{
+    font-size: 75px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 120px;
+}
+section#Clientes div p{
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    color: #525151;
+    margin: 0px;
+}
+
+section#Clientes div.grid-3 img {
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 165px;
+}
+section#Clientes div a {
+    font-size: 25px;
+    background-color: rgb(91, 34, 145);
+    padding: 20px;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    margin: 50px 500px;
+    text-decoration: none;
+    display: block;
+}
+
+section#Clientes div a:hover {
+    box-shadow: 2px 2px 8px black;
+    text-decoration: underline;
+}
+
+/* Time */
+section#Time {
+    text-align: center;
+}
+section#Time h2{
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+    
+}
+section#Time p.des{
+    font-size: 20px;
+    color: #525151;
+    padding: 0px;
+    margin: 0px 80px 0px 80px;
+    
+    
+}
+section#Time div {
+    display: flex;
+    width: 400px;
+    margin-left: 225px;
+}
+section#Time div.grid-4{
+    display: block;
+    background-color: rgb(225, 224, 224);
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+
+}
+section#Time div.grid-4 p{
+    font-size: 16px;
+color: #525151;
+}
+section#Time div.grid-4 span {
+    font-size: 13px;
+    color: #656464;
+}
+section#Time div.grid-4 img {
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px black;
+}
+section#Time div.grid-4:hover {
+    box-shadow: 0px 0px 10px black;
+}
+/*Contato */
+section#Time span#Contato{
+    text-align: center;
+    display:  block;
+    background-color: #3c3b3b;
+    margin: 123px -30px;
+    box-shadow: 2px 2px 8px black;
+}
+section#Time span#Contato h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: rgb(162, 175, 184);
+
+}
+section#Time span#Contato p{
+    font-size: 16px;
+    color: #a1a0a0;
+    margin: 0px;
+}
+
+section#Time span#Contato a{
+    padding: 10px 35px;
+    background-color: rgb(38, 37, 39);
+    color: white;
+    border-radius: 35px;
+    font-size: 15px;
+    display: block;
+    margin: 5px 340px;
+    
+}
+section#Time span#Contato a:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.518);
+    text-decoration: underline;
+}
